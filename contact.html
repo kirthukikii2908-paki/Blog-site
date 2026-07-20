@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <nav>
+            <h2 class="logo">Team <span>Alpha</span></h2>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About Us</a></li>
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <header class="hero-section">
+            <h1 id="main-title">Connect With Our Team</h1>
+            <p class="hero-subtitle">Have questions regarding our Project? Reach out below.</p>
+        </header>
+
+        <div class="contact-grid">
+            <div class="info-sidebar">
+                <h2>Direct Channels</h2>
+                <p>Feel free to establish communication through any of our simulated development channels:</p>
+                
+                <div class="info-block">
+                    <h3>Email</h3>
+                    <p>Primary Group Queue: <a href="mailto:squad@scrumdevblog.test">squad@scrumdevblog.test</a></p>
+                    <p>Academic Support: <a href="mailto:lab13@scrumdevblog.test">lab13@scrumdevblog.test</a></p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Mobile</h3>
+                    <p>Dev 1: 1234567890</p>
+                    <p>Dev 2: 1234567890</p>
+                    <p>Dev 3: 1234567890</p>
+                    <p>Dev 4: 1234567890</p>
+                    <p>Dev 5: 1234567890</p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Headquarters</h3>
+                    <p>STS Madurai</p>
+                </div>
+            </div>
+
+            <div class="form-main-panel">
+                <h2>Send a Message</h2>
+                <form action="#" method="POST" class="inquiry-form" onsubmit="event.preventDefault(); alert('Form submitted successfully! (Simulated Interaction)'); this.reset();">
+                    
+                    <div class="form-row">
+                        <div class="form-group-split">
+                            <label for="sender-name">Your Name</label>
+                            <input type="text" id="sender-name" required placeholder="e.g., Alex Smith">
+                        </div>
+                        <div class="form-group-split">
+                            <label for="sender-email">Your Email</label>
+                            <input type="email" id="sender-email" required placeholder="name@domain.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="msg-subject">Inquiry Subject</label>
+                        <input type="text" id="msg-subject" required placeholder="e.g., Question about Task 1 Code">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="msg-text">Message / Feedback</label>
+                        <textarea id="msg-text" rows="11" required placeholder="Type your detailed message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+     <footer>
+            <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Team <span style="color: gold;">Alpha</span></h3>
+                    <p>Empowering Talent, Unleashing Potential</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Developer Info</h3>
+                    <ul>
+                        <li>Snega</li>
+                        <li>Rohini</li>
+                        <li>kirthika</li>
+                        <li>Santhiya</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <p>For support or assessment feedback:</p>
+                    <a href="mailto:msnega73@gmail.com">Team_Alpha@Scrum_Blog.test</a> 
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Team Alpha. All rights reserved.</p>
+            </div>
+            </div>
+        </footer>
+</body>
+</html>
